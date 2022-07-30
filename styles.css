@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(lightskyblue, #FFA500);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #F08080;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #F08080;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #F08080;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://www.funimada.com/assets/images/cards/big/bday-252.gif");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://www.system-concepts.com/wp-content/uploads/2020/02/excited-minions-gif.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://i.gifer.com/embedded/download/GP4x.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://c.tenor.com/yIbOcaGpBOMAAAAM/despicable-me-minion.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://c.tenor.com/dbN19CnNn5QAAAAC/minions-dance.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://c.tenor.com/0clXAUxJhOUAAAAC/minions-youpi.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
